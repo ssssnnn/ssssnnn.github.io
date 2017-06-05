@@ -1,0 +1,66 @@
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body{
+    min-height: 1500px;
+	background: url ("../img/banner.jpg") no-repeat center top;
+}
+
+.logo a{
+	text-decoration: none;
+	font-size: 3.6em;
+    color: white;
+}
+
+.logo {
+	float: left;
+	margin: 16px auto 10px 200px;
+
+}
+header .topMenu{
+	float: right;
+}
+header ul li a {
+	float: right;
+	margin: 60px 30px;
+	color:black;
+}
+header{
+	width: 100%;
+	padding: 5px 0px;
+	background-color: rgba(0,0,0,.1);
+	left: 0;
+	top: 0;
+	z-index: 999;
+	transition: all .5s;
+}
+header.on{
+	padding: 10px 0;
+	background-color: rgba(0,0,0,.6);
+}
+
+h1{
+	color: white;
+}
+.banner {
+    text-align: center;
+    margin-top: 300px;
+    line-height: 2.5;
+}
+h1{
+	text-shadow: 1px 2px 1px rgba(0,0,0,.6);
+}
+.banner .text h1{
+	text-align: center;
+}
+.banner .text h1 strong{
+	color: #339BEB;
+}
+.banner .text p mark{
+	background-color: rgba(255,255,255,.5);
+	padding: 4px;
+	color: #000;
+}
